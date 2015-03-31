@@ -1,13 +1,17 @@
+body {
+    margin:0;
+}
 #sidebar{
-	width: 10em;
+	/*width: 10em;*/
+    width:10%;
 	height: 60em;
 	background-color: black;
 	float:left;
 	left:-1em;
-	display: block-inline;
 }
 #sidebar2{
-	width: 5em;
+	/*width: 10em;*/
+    width:10%;
 	height: 60em;
 	background-color: black;
 	float:right;
@@ -22,10 +26,14 @@ h1{
 }
 
 #placeholder1{
-	width: cover;
-	height: 50%;
+    width:75%;
+    margin:0 auto;
+    display:block;
 }
 
 #next{
 	margin-top: 3.3em;
+}
+.page-wrapper{
+    display:flex;
 }
